@@ -14,6 +14,13 @@ PyTorch implementation of the paper "Information Bottleneck based Self-distillat
 > * tqdm
 > * einops
 
+### Quick Start
+Clone this github repo.
+```bash
+git clone https://github.com/hanzhu1121/IBSD.git
+cd IBSD
+```
+
 ## Acknowledgements
 >
 > This code is built on [CDC](https://arxiv.org/abs/2008.01928). We thank the authors for sharing their codes of CDC  [PyTorch version](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution).
