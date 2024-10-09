@@ -7,6 +7,12 @@ PyTorch implementation of the paper "Information Bottleneck based Self-distillat
 
 ## Code
 ### Dependencies
+> * Python 3.6
+> * PyTorch >= 1.1.0
+> * pytorch_wavelets
+> * skimage
+> * tqdm
+> * einops
 
 ## Acknowledgements
 >
