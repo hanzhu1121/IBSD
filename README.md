@@ -14,12 +14,22 @@ PyTorch implementation of the paper "Information Bottleneck based Self-distillat
 > * tqdm
 > * einops
 
-### Quick Start
-Clone this github repo.
-```bash
-git clone https://github.com/hanzhu1121/IBSD.git
-cd IBSD
-```
+### Testing
+> 1. Clone this github repo.
+> ```bash
+> git clone https://github.com/hanzhu1121/IBSD.git
+> cd IBSD
+> ```
+> 2. Download pre-trained models to ```./models``` folder or use your pre-trained models
+> 3. Change the ```test_dataroot``` argument in ```CDC_test.py``` to the place where images are located
+> 4. Run ```CDC_test.py``` using script file ```test_models_pc.sh```.
+> ```bash
+> sh test_models_pc.sh cdc_x4_test ./CDC_test.py ./models/HGSR-MHR_X4_SubRegion_GW_283.pth 1
+> ```
+> 5. You can find the enlarged images in ```./results``` folder
+
+### Training
+> Coming soon...
 
 ## Acknowledgements
 >
