@@ -20,7 +20,7 @@ PyTorch implementation of the paper "Information Bottleneck based Self-distillat
 > git clone https://github.com/hanzhu1121/IBSD.git
 > cd IBSD
 > ```
-> 2. Download [pre-trained models](https://drive.google.com/drive/folders/17JzAB7rafavbmeJkDCtv8h94kQUV3wcY?usp=drive_link) to ```./models``` folder or use your pre-trained models
+> 2. Download [pre-trained models](https://drive.google.com/drive/folders/17JzAB7rafavbmeJkDCtv8h94kQUV3wcY?usp=sharing) to ```./models``` folder or use your pre-trained models
 > 3. Change the ```test_dataroot``` argument in ```CDC_test.py``` to the place where images are located
 > 4. Run ```CDC_test.py``` using script file ```test_models_pc.sh```.
 > ```bash
