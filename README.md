@@ -20,26 +20,18 @@ PyTorch implementation of the paper "Information Bottleneck based Self-distillat
 > git clone https://github.com/hanzhu1121/IBSD.git
 > cd IBSD
 > ```
-> 2. Download [pre-trained models](https://drive.google.com/drive/folders/17JzAB7rafavbmeJkDCtv8h94kQUV3wcY?usp=sharing) to ```./models``` folder or use your pre-trained models
-> 3. Change the ```test_dataroot``` argument in ```CDC_test.py``` to the place where images are located
-> 4. Run ```CDC_test.py``` using script file ```test_models_pc.sh```.
+> 2. Download [pre-trained models](https://drive.google.com/drive/folders/17JzAB7rafavbmeJkDCtv8h94kQUV3wcY?usp=sharing) to ```./Pretrained``` folder or use your pre-trained models
+> 3. Change the ```test_dataroot``` argument in ```./src/test.py``` to the place where images are located
+> 4. Run ```./src/test.py``` using script file ```test_models_pc.sh```.
 > ```bash
-> sh test_models_pc.sh cdc_x4_test ./CDC_test.py ./models/HGSR-MHR_X4_SubRegion_GW_283.pth 1
+> cd src
+> sh test_models_pc.sh imdn_x4_IBSD_test ./test.py ../Pretrained/IMDN_X4_IBSD.pth 1
 > ```
 > 5. You can find the enlarged images in ```./results``` folder
 
 ### Training
 Coming soon...
-> The key code is available in ```CDC_test.py```
-
-<!--
-> 1. Download [DRealSR dataset](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution). Then, change the ```dataroot``` and ```test_dataroot``` argument in ```./options/realSR_HGSR_MSHR.py``` to the place where images are located.
-> 2. Run ```CDC_train_test.py``` using script file ```train_pc.sh```.
-> ```bash
-> sh ./train_pc.sh cdc_x4 ./CDC_train_test.py ./options/realSR_HGSR_MSHR.py 1
-> ```
-> 3. You can find the results in ```./experiments/CDC-X4``` if the ```exp_name``` argument in ```./options/realSR_HGSR_MSHR.py``` is ```CDC-X4```
--->
+> The key code is available in ```./src/modules/model/ibnet.py```
 
 ## Acknowledgements
 >
