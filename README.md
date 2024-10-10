@@ -25,7 +25,7 @@ PyTorch implementation of the paper "Information Bottleneck based Self-distillat
 > 4. Run ```./src/test.py``` using script file ```test_models_pc.sh```.
 > ```bash
 > cd src
-> sh test_models_pc.sh imdn_x4_IBSD_test ./test.py ../Pretrained/IMDN_X4_IBSD.pth 1
+> sh test_models_pc.sh imdn_x4_IBSD_test ./test.py ../Pretrained/IMDN_X4_IBSD.pth 0
 > ```
 > 5. You can find the enlarged images in ```./results``` folder
 
